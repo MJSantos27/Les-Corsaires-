@@ -15,8 +15,8 @@ function Header() {
         <h1>Les Corsaire</h1>
       </div>
       <ul
-        className="navLinks"
-        style={{ trasforme: open ? "translateX(0px)" : "translateX(-500px)" }}
+        className={open ? "navLinks open" : "navLinks fermer"}
+        // style={{ trasforme: open ? "translateX(0px)" : "translateX(-500px)" }}
       >
         <li>
           <a href="#Home">Home</a>
