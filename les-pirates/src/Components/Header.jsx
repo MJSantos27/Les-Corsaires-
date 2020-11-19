@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 function Header() {
@@ -19,10 +20,10 @@ function Header() {
         style={{ trasforme: open ? "translateX(0px)" : "translateX(-500px)" }}
       >
         <li>
-          <a href="#Home">Home</a>
+          <Link to="/ ">Home</Link>
         </li>
         <li>
-          <a href="#Product">Product</a>
+          <Link to="/Pirates ">All Pirates</Link>
         </li>
         <li>
           <a href="#Services">Services</a>
@@ -31,7 +32,7 @@ function Header() {
           <a href="#AboutUs">AboutUs</a>
         </li>
         <li>
-          <a href="#ContactUs">ContactUs</a>
+          <Link to="/Contact ">Contact Us</Link>
         </li>
       </ul>
       <i onClick={() => setOpen(!open)} className="fas fa-bars burger"></i>

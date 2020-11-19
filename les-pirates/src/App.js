@@ -34,6 +34,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <Switch>
+          <Route path="/Contact">
+            <ContactForm />
+          </Route>
           <Route path="/Pirates">
             <PirateList pirates={pirates} />
           </Route>
@@ -41,7 +44,6 @@ class App extends Component {
             <Slider path="/" />
           </Route>
         </Switch>
-        <ContactForm />
         <Footer />
       </div>
     );
