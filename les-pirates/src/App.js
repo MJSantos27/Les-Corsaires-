@@ -3,6 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PirateList from "./Components/PirateList";
+import PirateDetail from "./Components/PirateDetail";
 import Slider from "./Components/Slider";
 import Header from "./Components/Header";
 import ContactForm from "./Components/ContactForm";
@@ -34,6 +35,9 @@ class App extends Component {
       <div className="App">
         <Header />
         <Switch>
+          <Route path="/Pirates/:id">
+            <PirateDetail pirates={pirates} />
+          </Route>
           <Route path="/Contact">
             <ContactForm />
           </Route>
