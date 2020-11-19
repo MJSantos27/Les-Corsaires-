@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import PirateList from "./Components/PirateList";
 import Slider from "./Components/Slider";
 import Header from "./Components/Header";
+import ContactForm from "./Components/ContactForm";
 
 class App extends Component {
   state = {
@@ -39,6 +40,7 @@ class App extends Component {
             <Slider path="/" />
           </Route>
         </Switch>
+        <ContactForm />
       </div>
     );
   }
