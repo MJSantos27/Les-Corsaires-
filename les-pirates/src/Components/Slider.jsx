@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./Slider.css";
 import axios from "axios";
 import Carousel from "react-elastic-carousel";
+
 class Slider extends Component {
   state = {
     pirates: [],
