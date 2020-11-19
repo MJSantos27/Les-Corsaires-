@@ -4,6 +4,7 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import PirateList from "./Components/PirateList";
 import Slider from "./Components/Slider";
+import Header from "./Components/Header";
 
 class App extends Component {
   state = {
@@ -29,7 +30,7 @@ class App extends Component {
     const { pirates } = this.state;
     return (
       <div className="App">
-        {/* <Header /> */}
+        <Header />
         <Switch>
           <Route path="/Pirates">
             <PirateList pirates={pirates} />
