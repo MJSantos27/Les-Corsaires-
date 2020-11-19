@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class ContactForm extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { value: "Anne Bonny" };
+    this.state = { value: "Barbe Noire" };
 
     this.handleChange = this.handleChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -25,13 +25,18 @@ class ContactForm extends React.Component {
           <label>
             Choose your team :
             <select value={this.state.value} onChange={this.handleChange}>
-              <option value="Anne Bonny">Anne Bonny</option>
-              <option value="Bartholomew Roberts">Bartholomew Roberts</option>
-              <option value="Benjamin Hornigold">Benjamin Hornigold</option>
-              <option value="Calico Jack">Calico Jack</option>
+              <option value="Barbe Noire">Barbe Noire</option>
+              <option value="Capitaine Thomas">Capitaine Thomas</option>
+              <option value="Christopher Chapman">Christopher Chapman</option>
+              <option value="John Evans">John Evans</option>
+              <option value="Woodes Rogers">Woodes Rogers</option>
+              <option value="John Taylor">John Taylor</option>
+              <option value="Emmanuel Wynne">Emmanuel Wynne</option>
+              <option value="John Rackham">John Rackham</option>
+              <option value="Christopher Moody">Christopher Moody</option>
+              <option value="Benoît Hubert">Benoît Hubert</option>
             </select>
           </label>
-          <input type="submit" value="Send" />
         </div>
         <div className="firstName">
           <label>
@@ -57,6 +62,7 @@ class ContactForm extends React.Component {
             <input type="text" placeholder="piratedescaraïbes@gmail.com" />
           </label>
         </div>
+        <input type="submit" value="Send me your treasure" />
       </form>
     );
   }
