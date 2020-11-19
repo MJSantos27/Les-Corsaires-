@@ -6,6 +6,7 @@ import PirateList from "./Components/PirateList";
 import Slider from "./Components/Slider";
 import Header from "./Components/Header";
 import ContactForm from "./Components/ContactForm";
+import Footer from "./Components/Footer";
 
 class App extends Component {
   state = {
@@ -41,6 +42,7 @@ class App extends Component {
           </Route>
         </Switch>
         <ContactForm />
+        <Footer />
       </div>
     );
   }
