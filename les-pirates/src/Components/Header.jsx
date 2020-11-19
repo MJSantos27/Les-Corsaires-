@@ -1,31 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.css";
+
 function Header() {
+  const [open, setOpen] = useState(false);
+
   return (
     <nav>
+      <img
+        className="logo"
+        src="http://www.thewayofthepirates.com/images/thewayofthepirates/picture-of-flag-of-pirate-edward-england-thumb.jpg"
+        alt="Pirate symbol"
+      />
       <div className="title">
         <h1>Les Corsaire</h1>
       </div>
-      <img
-        className="logo"
-        src="https://tomato.to/tmp/5fb695876c73c.jpg"
-        alt="Pirate symbol"
-      />
-      <ul className="navLinks">
+      <ul
+        className="navLinks"
+        style={{ trasforme: open ? "translateX(0px)" : "translateX(-500px)" }}
+      >
         <li>
-          <a>Home</a>
+          <a href="#Home">Home</a>
         </li>
         <li>
-          <a>Product</a>
+          <a href="#Product">Product</a>
         </li>
         <li>
-          <a>Services</a>
+          <a href="#Services">Services</a>
         </li>
         <li>
-          <a>AboutUs</a>
+          <a href="#AboutUs">AboutUs</a>
+        </li>
+        <li>
+          <a href="#ContactUs">ContactUs</a>
         </li>
       </ul>
-      <i class="fas fa-bars"></i>
+      <i onClick={() => setOpen(!open)} className="fas fa-bars burger"></i>
     </nav>
   );
 }

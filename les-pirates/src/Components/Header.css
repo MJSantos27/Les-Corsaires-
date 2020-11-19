@@ -46,3 +46,32 @@ nav .navLinks a {
 nav .navLinks a :hover {
   border-bottom: 10px solid black;
 }
+
+nav .burger {
+  font-size: 28px;
+  display: block;
+  cursor: pointer;
+}
+nav .navLinks {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: black;
+  padding: 20px;
+  width: 10%;
+  transform: translateX(-500px);
+  transition: 0.5s ease-in-out;
+  -webkit-transform: translateX(-500px);
+  -moz-transform: translateX(-500px);
+  -ms-transform: translateX(-500px);
+  -o-transform: translateX(-500px);
+}
+nav .navLinks li {
+  padding: 20px;
+  border-bottom: 1px Solid white;
+}
+nav .navLinks li:last-of-type {
+  border-bottom: 0px solid white;
+}
