@@ -38,7 +38,7 @@ class ContactForm extends React.Component {
             </select>
           </label>
         </div>
-        <div className="firstName">
+        <div className="firstName form-group">
           <label>
             first name:
             <input type="text" />
