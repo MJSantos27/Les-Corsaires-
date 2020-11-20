@@ -10,7 +10,6 @@
   color: #220901;
 }
 .rec.rec-dot.rec-dot_active.brcpxa {
-  background-color: #f27405;
   box-shadow: 0 0 1px 3px rgb(32, 31, 32);
 }
 
@@ -37,7 +36,6 @@ button.gUWalH:focus {
 button.gUWalH:hover,
 button.gUWalH:focus {
   cursor: pointer;
-  box-shadow: 0 0 1px 3px #ed8d8d;
 }
 
 button.DIuaA {
