@@ -1,4 +1,5 @@
 import React from "react";
+import "./ContactForm.css";
 
 class ContactForm extends React.Component {
   constructor(props) {
@@ -33,16 +34,6 @@ class ContactForm extends React.Component {
               {pirates.map((SinglePirate) => (
                 <option value={SinglePirate.name}>{SinglePirate.name}</option>
               ))}
-              {/* <option value="Barbe Noire">Barbe Noire</option>
-              <option value="Capitaine Thomas">Capitaine Thomas</option>
-              <option value="Christopher Chapman">Christopher Chapman</option>
-              <option value="John Evans">John Evans</option>
-              <option value="Woodes Rogers">Woodes Rogers</option>
-              <option value="John Taylor">John Taylor</option>
-              <option value="Emmanuel Wynne">Emmanuel Wynne</option>
-              <option value="John Rackham">John Rackham</option>
-              <option value="Christopher Moody">Christopher Moody</option>
-              <option value="Benoît Hubert">Benoît Hubert</option> */}
             </select>
           </label>
         </div>
@@ -74,7 +65,11 @@ class ContactForm extends React.Component {
             />
           </label>
         </div>
-        <input type="submit" value="Send me your treasure" />
+        <input
+          className="btn btn-info"
+          type="submit"
+          value="Send me your treasure"
+        />
       </form>
     );
   }

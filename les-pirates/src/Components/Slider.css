@@ -19,12 +19,12 @@
 }
 .rec-arrow-right,
 .rec-arrow-left {
-  background: linear-gradient(to bottom, #f6aa1c 5%, #bf3604 100%);
+  background: linear-gradient(to bottom, #19d3da 5%, #043a3b 100%);
   cursor: pointer;
 }
 .chowzb:hover:enabled,
 .chowzb:focus:enabled {
-  background-color: #f6aa1c;
+  background-color: #19d3da;
 }
 
 button.gUWalH:hover,
@@ -37,4 +37,14 @@ button.gUWalH:hover,
 button.gUWalH:focus {
   cursor: pointer;
   box-shadow: 0 0 1px 3px #ed8d8d;
+}
+
+button.DIuaA {
+  box-shadow: #19d3da;
+  box-shadow: 0 0 1px 3px#043a3b;
+  background-color: #19d3da;
+}
+
+img {
+  max-height: 180px;
 }
