@@ -12,9 +12,9 @@ function Header() {
         src="http://www.thewayofthepirates.com/images/thewayofthepirates/picture-of-flag-of-pirate-edward-england-thumb.jpg"
         alt="Pirate symbol"
       />
-      <div className="title">
-        <h1>The Corsairs</h1>
-      </div>
+
+      <h1 className="title">The Corsairs</h1>
+
       <ul className={open ? "navLinks open" : "navLinks fermer"}>
         <li>
           <Link to="/">Home</Link>
