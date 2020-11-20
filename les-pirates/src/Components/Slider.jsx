@@ -26,18 +26,10 @@ class Slider extends Component {
   render() {
     const { pirates } = this.state;
     return (
-      <div className="Pirate">
+      <div className="pirate">
         <Carousel>
           {pirates.map((pirate) => (
-            <img
-              key={pirate.id}
-              src={pirate.imageUrl}
-              alt={pirate.name}
-              // key={pirate.id}
-              // imageUrl={pirate.imageUrl}
-              // name={pirate.name}
-              // shortBio={pirate.shortBio}
-            />
+            <img key={pirate.id} src={pirate.imageUrl} alt={pirate.name} />
           ))}
         </Carousel>
       </div>
