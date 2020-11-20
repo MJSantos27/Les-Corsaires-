@@ -15,15 +15,12 @@ function Header() {
       <div className="title">
         <h1>Les Corsaire</h1>
       </div>
-      <ul
-        className="navLinks"
-        style={{ trasforme: open ? "translateX(0px)" : "translateX(-500px)" }}
-      >
+      <ul className={open ? "navLinks open" : "navLinks fermer"}>
         <li>
-          <Link to="/ ">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/Pirates ">All Pirates</Link>
+          <Link to="/Pirates">All Pirates</Link>
         </li>
         <li>
           <a href="#Services">Services</a>
@@ -32,7 +29,7 @@ function Header() {
           <a href="#AboutUs">AboutUs</a>
         </li>
         <li>
-          <Link to="/Contact ">Contact Us</Link>
+          <Link to="/Contact">Contact Us</Link>
         </li>
       </ul>
       <i onClick={() => setOpen(!open)} className="fas fa-bars burger"></i>

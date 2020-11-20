@@ -5,10 +5,13 @@
 }
 h1 {
   max-width: auto;
+  width: 20px;
   text-align: center;
-  padding: 80px;
-  text-align: center;
+  padding: 30px;
   font-size: 30px;
+}
+.title {
+  font-size: 50px;
 }
 li {
   list-style-type: none;
@@ -60,14 +63,18 @@ nav .navLinks {
   height: 100vh;
   background-color: black;
   padding: 20px;
-  width: 10%;
+  width: 20%;
+}
+
+.open {
+  transform: translateX(0px);
+  transition: 0.5s ease-in-out;
+}
+.fermer {
   transform: translateX(-500px);
   transition: 0.5s ease-in-out;
-  -webkit-transform: translateX(-500px);
-  -moz-transform: translateX(-500px);
-  -ms-transform: translateX(-500px);
-  -o-transform: translateX(-500px);
 }
+
 nav .navLinks li {
   padding: 20px;
   border-bottom: 1px Solid white;
