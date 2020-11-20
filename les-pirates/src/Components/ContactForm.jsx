@@ -18,6 +18,7 @@ class ContactForm extends React.Component {
   }
 
   render() {
+    const { pirates } = this.props;
     return (
       <form onSubmit={this.handleSubmit} className="container ">
         <h2>I am applying for the team of :</h2>
@@ -29,7 +30,10 @@ class ContactForm extends React.Component {
               onChange={this.handleChange}
               className="form-control"
             >
-              <option value="Barbe Noire">Barbe Noire</option>
+              {pirates.map((SinglePirate) => (
+                <option value={SinglePirate.name}>{SinglePirate.name}</option>
+              ))}
+              {/* <option value="Barbe Noire">Barbe Noire</option>
               <option value="Capitaine Thomas">Capitaine Thomas</option>
               <option value="Christopher Chapman">Christopher Chapman</option>
               <option value="John Evans">John Evans</option>
@@ -38,7 +42,7 @@ class ContactForm extends React.Component {
               <option value="Emmanuel Wynne">Emmanuel Wynne</option>
               <option value="John Rackham">John Rackham</option>
               <option value="Christopher Moody">Christopher Moody</option>
-              <option value="Benoît Hubert">Benoît Hubert</option>
+              <option value="Benoît Hubert">Benoît Hubert</option> */}
             </select>
           </label>
         </div>

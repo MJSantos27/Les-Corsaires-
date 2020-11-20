@@ -8,11 +8,7 @@ function PirateDetail(props) {
   return (
     <div className="PirateDetail">
       {pirates
-        .filter(
-          (singlePirate) =>
-            singlePirate.id === parseInt(idPirate) ||
-            console.log(singlePirate.id, parseInt(idPirate))
-        )
+        .filter((singlePirate) => singlePirate.id === parseInt(idPirate))
         .map((filteredId) => (
           <div className={filteredId.name}>
             <h2>{filteredId.name} </h2>

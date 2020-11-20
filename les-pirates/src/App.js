@@ -39,7 +39,7 @@ class App extends Component {
             <PirateDetail pirates={pirates} />
           </Route>
           <Route path="/Contact">
-            <ContactForm />
+            <ContactForm pirates={pirates} />
           </Route>
           <Route path="/Pirates">
             <PirateList pirates={pirates} />
