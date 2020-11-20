@@ -23,12 +23,6 @@ function Header() {
           <Link to="/Pirates">All Pirates</Link>
         </li>
         <li>
-          <a href="#Services">Services</a>
-        </li>
-        <li>
-          <a href="#AboutUs">AboutUs</a>
-        </li>
-        <li>
           <Link to="/Contact">Contact Us</Link>
         </li>
       </ul>
