@@ -15,6 +15,7 @@ function PirateList(props) {
               name={SinglePirate.name}
               imageUrl={SinglePirate.imageUrl}
               shortBio={SinglePirate.shortBio}
+              id={SinglePirate.id}
             />
           ))}
         </section>
