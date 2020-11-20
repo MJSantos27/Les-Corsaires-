@@ -10,8 +10,8 @@ h1 {
   padding: 30px;
   font-size: 30px;
 }
-.title {
-  font-size: 50px;
+.title h1 {
+  font-size: 100px;
 }
 li {
   list-style-type: none;
