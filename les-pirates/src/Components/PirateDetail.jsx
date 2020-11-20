@@ -12,7 +12,10 @@ function PirateDetail(props) {
         .filter((singlePirate) => singlePirate.id === parseInt(idPirate))
         .map((filteredId) => (
           <div className={filteredId.name}>
-            <h2>{filteredId.name} </h2>
+            <h2>
+              {filteredId.name}{" "}
+              {filteredId.nickname === "" ? "" : `(${filteredId.nickname})`}{" "}
+            </h2>
             <p className="">Year of birth : {filteredId.yearBirth}</p>
             <img className="" src={filteredId.imageUrl} alt={filteredId.name} />
             <p className="">{filteredId.shortBio}</p>
