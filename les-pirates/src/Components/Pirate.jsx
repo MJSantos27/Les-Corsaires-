@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import "./Pirate.css";
 
 function Pirate(props) {
   const { name, imageUrl, shortBio, id } = props;
@@ -9,10 +10,7 @@ function Pirate(props) {
       <img className="card-img-top" src={imageUrl} alt={name} />
       <h5 className="card-title">{name}</h5>
       <p className="card-text">{shortBio}</p>
-      <Link
-        to={`/Pirates/${id}`}
-        className="btn btn-info justify-content-center"
-      >
+      <Link to={`/Pirates/${id}`} className="btn btn-info ">
         More information
       </Link>
     </div>

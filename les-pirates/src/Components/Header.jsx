@@ -13,7 +13,7 @@ function Header() {
         alt="Pirate symbol"
       />
       <div className="title">
-        <h1>Les Corsaire</h1>
+        <h1>The Corsairs</h1>
       </div>
       <ul className={open ? "navLinks open" : "navLinks fermer"}>
         <li>
@@ -21,12 +21,6 @@ function Header() {
         </li>
         <li>
           <Link to="/Pirates">All Pirates</Link>
-        </li>
-        <li>
-          <a href="#Services">Services</a>
-        </li>
-        <li>
-          <a href="#AboutUs">AboutUs</a>
         </li>
         <li>
           <Link to="/Contact">Contact Us</Link>

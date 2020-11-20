@@ -1,0 +1,13 @@
+.container {
+  width: 60%;
+  height: 100%;
+}
+
+h2 {
+  color: #043a3b;
+  margin-top: 1vw;
+}
+
+.btn {
+  margin: 10px;
+}

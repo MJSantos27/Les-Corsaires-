@@ -4,4 +4,24 @@
 
 footer {
   background-color: grey;
+  /* position: absolute; */
+  bottom: 0%;
+  width: 100%;
+}
+
+.myFooter {
+  display: flex;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 6px;
+  width: 100%;
+}
+
+.All-icone {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  /* align-items: center; */
 }
