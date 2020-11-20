@@ -11,12 +11,7 @@ class Slider extends Component {
   componentDidMount = () => {
     this.fetchPirets();
   };
-  /*const breakPoints = [
-    { width: 1, itemsToScroll: 1, itemsToShow: 1 },
-    { width: 500, itemsToScroll: 1, itemsToShow: 1 },
-    { width: 768, itemsToScroll: 1, itemsToShow: 1 },
-    { width: 1200, itemsToScroll: 1, itemsToShow: 1 },
-  ];*/
+
   fetchPirets = () => {
     axios
       .get("https://my-json-server.typicode.com/bhubr/pirates-api/pirates")
