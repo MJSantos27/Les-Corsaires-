@@ -8,6 +8,7 @@ function Footer() {
           src="https://www.cmonsite.fr/creer-un-site/wp-content/uploads/2013/03/facebook-icone-CmonSite.png"
           alt="Facebook-icone"
         />
+
         <img
           src="https://www.cmonsite.fr/creer-un-site/wp-content/uploads/2013/03/twitter-CmonSite.png"
           alt="Twitter-icone"
