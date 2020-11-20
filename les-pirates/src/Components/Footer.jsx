@@ -14,7 +14,7 @@ function Footer() {
         />
         <img
           src="https://www.cmonsite.fr/creer-un-site/wp-content/uploads/2019/01/logo-instagram-300x300.png"
-          alt="Instagram-logo"
+          alt="Instagram-icone"
         />
         <p>Site & content created by The Corsairs</p>
         <p>Copyright © 1756-1757</p>
