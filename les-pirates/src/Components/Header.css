@@ -5,10 +5,13 @@
 }
 h1 {
   max-width: auto;
+  width: 20px;
   text-align: center;
-  padding: 80px;
-  text-align: center;
+  padding: 30px;
   font-size: 30px;
+}
+.title {
+  font-size: 50px;
 }
 li {
   list-style-type: none;

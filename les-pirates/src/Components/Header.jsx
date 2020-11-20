@@ -14,10 +14,7 @@ function Header() {
       <div className="title">
         <h1>Les Corsaire</h1>
       </div>
-      <ul
-        className={open ? "navLinks open" : "navLinks fermer"}
-        // style={{ trasforme: open ? "translateX(0px)" : "translateX(-500px)" }}
-      >
+      <ul className={open ? "navLinks open" : "navLinks fermer"}>
         <li>
           <a href="#Home">Home</a>
         </li>
